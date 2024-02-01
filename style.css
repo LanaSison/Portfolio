@@ -1,0 +1,160 @@
+h1, h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    padding-top: 40px;  
+    background-color: darkgray;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: rgb(106, 106, 156);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .navbar.active {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: gray;
+  }
+  
+  /* Home Section  */
+  .section {
+    padding: 25px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: rgba(229, 170, 150, 0.867); 
+  }
+
+  #home.section {
+    background-color: darkgray;
+    padding-top: 0;
+  }
+  
+  .left-column {
+    position:fixed;
+    top: 10px;
+    float: left;
+    /* left: 0; */
+    width: 30%;
+    height: 100%;
+  }
+  
+  .left-column img {
+    margin-top: 32.5px;
+    max-width: 100%;
+    max-height: 75%;
+    border-radius: 25%;
+  }
+
+  .resume {
+    font-family: cursive;
+  }
+  
+  /* About Me Section */
+  #about.section {
+    margin-left: 35%;  
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+  }
+
+  #projects.section {
+    margin-left: 35%;  
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+  }
+
+  #contact.section {
+    margin-left: 35%;  
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+  }
+  
+  .skills-bar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .skill {
+    height: 20px;
+    background-color: rgb(106, 106, 156);
+    margin: 0 0px;
+  }
+
+  .skillend {
+    height: 20px;
+    background-color: gray;
+  }
+  
+  
+  /* Projects Section styling */
+  .project {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    width: 40%;
+    height: 200px;
+    border-radius: 15%;
+  }
+  
+  .project-details {
+    margin-left: 20px;
+    width: 30%
+  }
+  
+  .project-description {
+    overflow-x: auto;
+  }
+  
+  /* Contact Me Section */
+  .contact-info {
+    text-align: center;
+    /* margin-bottom: 500px; */
+  }
+  
+  .contact-info p {
+    margin: 10px;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+    /* color: gray;
+    font-size: 20px; */
+  }
+
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+  }
+  
